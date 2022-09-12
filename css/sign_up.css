@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    color: #000000;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: Poppins;
+}
+
+.nav-container{
+    background: #99D98C;
+    border-radius: 0px 0px 40px 40px;
+    height: 75px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 80px;
+}
+.nav-containter{
+    background: #99D98C;
+    border-radius: 0px 0px 40px 40px;
+    height: 75px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 2px;
+    padding-right: 10px;
+}
+nav ul{
+    display: flex;
+    padding-top: 0%;
+}
+.nav-items ul{
+    position: fixed;
+    display: inline-block;
+}
+
+#logo{
+    position:absolute;
+    top:0px;
+    left:50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+.header-container {
+    background: rgba(109, 167, 193);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .hero-image{
+     left: 50px;
+     margin-top: 200px;
+     margin-right: 50px;
+     margin-bottom: 100px;
+  
+}
+
+.form{
+    width: 300px;
+    height: 850px;
+    background: #99D98C;
+    position: static;
+    margin-left: auto;
+    margin-top: 250px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+}
+
+.form h2:hover{
+    background: #fff;
+    color: #6DA7C1;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #000000;
+    font-family: Arial;
+}
+
+.btnn{
+    text-align: center;
+    width: 240px;
+    height: 40px;
+    background: #fff;
+    border: none ;
+    margin-top: 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #6DA7C1;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #6DA7C1;
+}
+
+.btnn a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btnn a:hover{
+    
+    background: #fff;
+    color: #6DA7C1;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #6DA7C1;
+    text-align: center;
+    align-items: center;
+}
+
+.login-succes{
+    
+    right: 50px;
+     margin-top: 200px;
+     margin-left: 50px;
+     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .nav-container{
+        position: relative;
+        background: #99D98C;
+        border-radius: 0px 0px 40px 40px;
+    }
+
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+
+    .wrapper{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        height: 2px;
+        padding-right: 10px;
+    }
+    nav ul{
+        display: flex;
+        padding-top: 0%;
+    }
+    .nav-items ul{
+        position: fixed;
+        display: inline-block;
+    }
+
+    #logo{
+        position:absolute;
+        top:0px;
+        left:50px;
+        width:80px;
+        height:80px;
+        overflow:hidden;
+    }
+    .header-container {
+        background: rgba(109, 167, 193);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        height: calc(100vh - 72px);
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-image{
+        display: none;
+        left: 50px;
+        margin-top: 200px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+
+    }
+
+    .form{
+        width: 300px;
+        height: 850px;
+        background: #99D98C;
+        position: static;
+        margin-left: auto;
+        margin-top: 250px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        padding: 25px;
+
+    }
+
+    .form h2{
+        width: 220px;
+        text-align: center;
+        color: #000000;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 4px;
+        padding: 8px;
+    }
+
+    .form h2:hover{
+        background: #fff;
+        color: #6DA7C1;
+    }
+
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #000000;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #000000;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        font-family: sans-serif;
+
+    }
+
+    .form input:focus{
+        outline: none;
+    }
+
+    ::placeholder{
+        color: #000000;
+        font-family: Arial;
+    }
+
+    .btnn{
+        text-align: center;
+        width: 240px;
+        height: 40px;
+        background: #fff;
+        border: none ;
+        margin-top: 30px;
+        font-size: 22px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #6DA7C1;
+        transition: 0.4s ease;
+    }
+
+    .btnn:hover{
+        background: #fff;
+        color: #6DA7C1;
+    }
+
+    .btnn a{
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .btnn a:hover{
+
+        background: #fff;
+        color: #6DA7C1;
+    }
+
+    .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+
+    }
+
+    .form .link a{
+        text-decoration: none;
+        color: #6DA7C1;
+        text-align: center;
+        align-items: center;
+    }
+
+    .login-succes{
+        display: none;
+        right: 50px;
+        margin-top: 200px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+
+}
